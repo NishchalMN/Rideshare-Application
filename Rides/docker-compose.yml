@@ -1,0 +1,8 @@
+version: '3'
+services:
+   web:
+      build: ./users
+      container_name: users
+      image: users:latest
+      ports:
+        - "80:80"
